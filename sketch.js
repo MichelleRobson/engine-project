@@ -18,6 +18,7 @@ function draw() {
   background(255,255,255);  
   Engine.update(engine);
 
+  ground.display();
   paper.display();
   drawSprites();
 }
